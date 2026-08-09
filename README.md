@@ -8,6 +8,24 @@
 
 它适合把一个产品想法转化为可验证的客户方案、付费试点、销售计划、财务模型和决策交付包。它不能替代客户访谈、医院医保办确认、注册/法律意见、临床研究或正式合同。
 
+适用对象：医疗器械与康复设备团队、康复机构、运动健康连锁、体育科研团队、学校健康项目、AI/机器人产品团队和医疗科技咨询服务商。
+
+## 60 秒开始
+
+1. 复制 `skills/` 到你的 Skill 目录。
+2. 先调用 `$customer-evidence-medtech-commercial-validation`。
+3. 输入产品、目标客户、场景、预期用途和现有证据。
+4. 再按需要调用医院准入、法规、临床证据、售后或定价专项 Skill。
+5. 要求输出客户 ROI、付费试点闸门和 Continue/Adjust/Pause/Stop 决策。
+
+```text
+$customer-evidence-medtech-commercial-validation
+
+请评估这个产品是否值得在90天内做付费试点。先分析客户如何获益，
+再分析交易结构、合规风险、交付成本和公司盈利。区分事实、假设、
+客户确认和待验证信息，不要把市场规模当作客户需求。
+```
+
 ## Skills
 
 ### 总控 Skill
@@ -60,6 +78,13 @@ $customer-evidence-medtech-commercial-validation
 不要在没有付费客户、重复交付证据和续费信号前，直接开发复杂 SaaS 或 GitHub App。
 
 公开包中的 [`commercialization/`](commercialization/) 目录包含产品目录、客户需求表、付费试点模板、交付 SOP 和指标定义。
+
+## 参与和推广
+
+- 提交真实但已脱敏的使用反馈、模板改进和边界案例。
+- 在 Discussions 中提出问题或分享使用结果，不要上传患者、学生、客户或内部合同数据。
+- 发布版本见 [Releases](https://github.com/JamesDing78/medtech-commercial-validation-skills/releases)。
+- 商业合作应基于客户问题、交付范围和验证结果，不以 Star、下载量或市场规模代替需求证据。
 
 ## 公开范围与限制
 

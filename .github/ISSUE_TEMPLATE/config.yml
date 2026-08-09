@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or share a workflow
+    url: https://github.com/JamesDing78/medtech-commercial-validation-skills/discussions
+    about: Use Discussions for questions, examples, and open-ended workflow feedback.
