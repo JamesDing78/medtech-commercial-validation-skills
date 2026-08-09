@@ -96,3 +96,107 @@ $customer-evidence-medtech-commercial-validation
 ## 许可证
 
 本项目采用 MIT License。第三方来源、商标、法规文本和数据集仍受其各自权利人约束。
+
+---
+
+# English Version
+
+## Overview
+
+This repository provides Codex Skills for medtech, rehabilitation, sports health, education health, and embodied-intelligence product lines.
+
+The core order is:
+
+> Customer value -> real evidence -> transaction design -> delivery burden -> compliance and risk -> company economics -> continue, adjust, pause, or stop
+
+The Skills help turn a product idea into a verifiable customer solution, paid pilot, sales plan, financial model, and decision package. They do not replace customer interviews, hospital reimbursement-office confirmation, regulatory or legal advice, clinical research, or a signed contract.
+
+Intended users include medical-device and rehabilitation-equipment teams, rehabilitation providers, sports-health chains, sports-science teams, school-health programs, AI/robotics product teams, and medtech consultants.
+
+## Get Started in 60 Seconds
+
+1. Copy \`skills/\` into your Skill directory.
+2. Call \`$customer-evidence-medtech-commercial-validation\` first.
+3. Provide the product, target customer, scene, intended use, and existing evidence.
+4. Call the hospital-access, regulatory, clinical-evidence, after-sales, or pricing specialist Skills as needed.
+5. Require customer ROI, paid-pilot gates, and a Continue/Adjust/Pause/Stop decision.
+
+\`\`\`text
+$customer-evidence-medtech-commercial-validation
+
+Assess whether this product is worth a paid pilot within 90 days. Start with
+customer value, then analyze transaction design, compliance risk, delivery
+cost, and company economics. Separate facts, assumptions, customer-confirmed
+evidence, and pending validation. Do not treat market size as customer demand.
+\`\`\`
+
+## Skills
+
+### Orchestrator Skill
+
+- \`customer-evidence-medtech-commercial-validation\`: The evidence-led orchestration entry point for medtech commercial validation.
+
+### Specialist Skills
+
+- \`market-pain-mining\`: Market research and pain-point mining.
+- \`data-moat-pricing\`: Pricing for multimodal datasets, devices, software, and services.
+- \`medical-to-robotics-business-model\`: Three-stage medical-to-robotics business model.
+- \`sim-to-real-feasibility\`: Simulation-to-real and real-world deployment feasibility.
+- \`global-medtech-regulatory-classification\`: FDA, NMPA, and EU MDR classification and registration pathways.
+- \`clinical-evidence-maude-mining\`: Clinical evidence, recalls, and MAUDE risk signals.
+- \`hospital-access-pricing-reimbursement\`: Hospital access, reimbursement, DRG/DIP, and procurement.
+- \`after-sales-service-system\`: After-sales, SLA, calibration, spare parts, and service revenue.
+- \`record-replay-sales-review\`: Record & Replay review for sales, demos, and after-sales.
+- \`solo-founder-team-building\`: Solo-founder launch, external experts, and phased hiring.
+- \`interactive-pitch-deck\`: Interactive pitch decks and decision Sites.
+
+## Usage
+
+Copy the \`skills/\` directory into your Skill directory, then explicitly call:
+
+\`\`\`text
+$customer-evidence-medtech-commercial-validation
+\`\`\`
+
+Start with the orchestrator Skill, then call specialist Skills as needed. The orchestrator requires you to distinguish facts, public evidence, customer-confirmed evidence, inferences, assumptions, and missing information.
+
+## Recommended Workflow
+
+1. Define the decision, customer, scene, intended use, and success criteria.
+2. Model medical, research/sports-university, school, community/chain, and To C segments separately.
+3. Record customer pain, current workaround, buyer, payer, budget, and reasons not to buy.
+4. Build a source ledger with observation year, publication date, access date, comparability, and evidence grade.
+5. Validate payback from the customer side first, then build company revenue and profit models.
+6. Validate through interviews, demos, formal quotations, and paid pilots rather than treating market size as demand.
+7. Apply gates for registration, promotion, reimbursement, privacy, minors, clinical safety, after-sales, and cash flow.
+8. Output Continue, Adjust, Pause, or Stop, and list the next smallest validation action.
+
+## Agent Role Bindings
+
+The public repository does not include personal Agent configuration. See [\`agents/README.md\`](agents/README.md) for examples of binding the orchestrator Skill to a CEO, builder, and reviewer role.
+
+## Commercialization
+
+This repository follows a “free open core + paid professional services/enterprise edition” model. The GitHub Skills support acquisition and trust-building; paid offers include industry template packs, commercial-validation sprints, enterprise private deployment, training, annual updates, and ongoing support. See [\`MONETIZATION.md\`](MONETIZATION.md) for details.
+
+Do not build a complex SaaS product or GitHub App before you have paid customers, repeatable delivery evidence, and renewal signals.
+
+The public [\`commercialization/\`](commercialization/) directory contains the product catalog, customer-requirements form, paid-pilot template, delivery SOP, and metric definitions.
+
+## Contribution and Promotion
+
+- Submit real but anonymized usage feedback, template improvements, and boundary cases.
+- Use Discussions for questions and workflow results; do not upload patient, student, customer, or internal contract data.
+- See [Releases](https://github.com/JamesDing78/medtech-commercial-validation-skills/releases) for published versions.
+- Base commercial collaboration on customer problems, delivery scope, and validation results—not on Stars, downloads, or market size as substitutes for demand evidence.
+
+## Public Scope and Limitations
+
+- This repository contains only general methods, templates, and workflows. It does not contain any specific company's internal prices, customer lists, equipment inventory, contracts, financial models, or personal information.
+- Recheck the validity, jurisdiction, and update date of public prices, regulations, and clinical data before use.
+- Medical-device classification, reimbursement, data transactions, and efficacy promotion must be confirmed against the specific product and local rules.
+- Raw health data, minors' data, biometric data, and patient data do not automatically become tradable assets or profit merely because they enter a project.
+
+## License
+
+This project uses the MIT License. Third-party sources, trademarks, regulatory text, and datasets remain subject to their respective rights holders.
