@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+node_modules/
+dist/
+build/
+*.log
+*.xlsx
+*.xls
+*.pptx
+*.pdf
+*.zip
+*.tar.gz

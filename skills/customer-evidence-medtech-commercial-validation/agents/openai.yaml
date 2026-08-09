@@ -1,0 +1,6 @@
+interface:
+  display_name: "客户证据驱动的医疗科技商业验证"
+  short_description: "用客户证据验证医疗科技产品线的商业可行性与继续投入"
+  default_prompt: "Use $customer-evidence-medtech-commercial-validation to validate this medical technology product line from customer value to commercial decision."
+policy:
+  allow_implicit_invocation: true
